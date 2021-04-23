@@ -18,7 +18,7 @@
             'tableau' => array(
                 1 => "Nouveau",
                 2 => "tableau"
-            )
+                )
             );
         // var_dump affiche les informations de la variables
         var_dump($tableau);
@@ -31,7 +31,6 @@
             4.5 => "la clé 4.5 sera convertie en entier elle aussi",
             false => "un boolean sera converti en binaire (1 ou 0)",
             null => "la clé null sera converie en chaine de caractère vide"
-
         ];
         var_dump($tableau2);
 

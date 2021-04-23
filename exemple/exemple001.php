@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        echo "Bonjour, je suis un script php"
+        echo "Bonjour, je suis un script php";
     ?>
     <!-- Ceci est un commentaire html -->
     <p>Ceci sera ignoré par PHP et affiché au navigateur.</p>
@@ -22,8 +22,10 @@
     <p>Ceci sera aussi ignoré par PHP et affiché au navigateur.</p>
 
 
-    <?php if ($expression == true): ?>
-        <h2>Ceci sera affiché si l'expression est vrai.</h2>
+    <?php 
+        $expression = true;
+        if ($expression == true): ?>
+        <h2>Ceci sera affiché si l'expression est vraie.</h2>
     <?php else: ?>
         <h2>Sinon, ceci sera affiché.</h2>
     <?php endif; ?>

@@ -18,7 +18,7 @@
     ?>
 
     <!-- Les types de variables -->
-    <?php 
+    <?php
         $age = 18; // ENTIER (INT)
         $prixDuBaril = 62.94; //FLOAT
         $prénom = "Guy" ;// STRING
